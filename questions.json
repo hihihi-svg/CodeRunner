@@ -1,0 +1,405 @@
+{
+  "easy": {
+    "arrays": [
+      {
+        "question": "Given array [64, 34, 25, 12, 22, 11, 90], find the maximum element.",
+        "answer": "90",
+        "language": "python"
+      },
+      {
+        "question": "Find the sum of all elements in array [10, 20, 30, 40, 50].",
+        "answer": "150",
+        "language": "python"
+      },
+      {
+        "question": "Two Sum: Given [2,7,11,15] and target=9, which indices sum to target? (format: 0,1)",
+        "answer": "0,1",
+        "language": "python"
+      },
+      {
+        "question": "Find the index of element 5 in array [1,2,3,4,5,6]. (0-indexed)",
+        "answer": "4",
+        "language": "python"
+      },
+      {
+        "question": "Check if array [1,2,3,4,5] contains duplicate elements? (yes/no)",
+        "answer": "no",
+        "language": "python"
+      },
+      {
+        "question": "What is the middle element of sorted array [1,3,5,7,9]?",
+        "answer": "5",
+        "language": "python"
+      }
+    ],
+    "stacks": [
+      {
+        "question": "Valid Parentheses: Is '()' valid? (yes/no)",
+        "answer": "yes",
+        "language": "python"
+      },
+      {
+        "question": "Valid Parentheses: Is '([)]' valid? (yes/no)",
+        "answer": "no",
+        "language": "python"
+      },
+      {
+        "question": "Stack operations: push(1),push(2),pop(),push(3),pop() - Final top element?",
+        "answer": "1",
+        "language": "python"
+      },
+      {
+        "question": "Which data structure is used for function call management? (stack/queue)",
+        "answer": "stack",
+        "language": "python"
+      }
+    ],
+    "queues": [
+      {
+        "question": "In BFS traversal, which data structure is used? (stack/queue)",
+        "answer": "queue",
+        "language": "python"
+      },
+      {
+        "question": "Queue: enqueue(1),enqueue(2),dequeue(),enqueue(3) - Front element?",
+        "answer": "2",
+        "language": "python"
+      },
+      {
+        "question": "Circular Queue with size 3: After inserting [1,2,3] and deleting 1, can we insert 4? (yes/no)",
+        "answer": "yes",
+        "language": "python"
+      }
+    ],
+    "searching": [
+      {
+        "question": "Binary Search: In sorted array [1,3,5,7,9,11], target=7. How many comparisons minimum?",
+        "answer": "1",
+        "language": "python"
+      },
+      {
+        "question": "Linear Search: Worst case time complexity? (O(1)/O(n)/O(log n))",
+        "answer": "O(n)",
+        "language": "python"
+      },
+      {
+        "question": "Binary Search works on which type of array? (sorted/unsorted)",
+        "answer": "sorted",
+        "language": "python"
+      }
+    ],
+    "linked_list": [
+      {
+        "question": "Linked List: Inserting at head takes? (O(1)/O(n))",
+        "answer": "O(1)",
+        "language": "python"
+      },
+      {
+        "question": "In singly linked list, can we traverse backwards? (yes/no)",
+        "answer": "no",
+        "language": "python"
+      },
+      {
+        "question": "Doubly linked list node contains how many pointers minimum?",
+        "answer": "2",
+        "language": "python"
+      }
+    ]
+  },
+  "medium": {
+    "arrays": [
+      {
+        "question": "Kadane's Algorithm: Maximum subarray sum in [-2,1,-3,4,-1,2,1,-5,4]?",
+        "answer": "6",
+        "language": "python"
+      },
+      {
+        "question": "Dutch National Flag: Sort [2,0,2,1,1,0]. Count of 0s? (answer: number)",
+        "answer": "2",
+        "language": "python"
+      },
+      {
+        "question": "Find second largest element in [12, 35, 1, 10, 34, 1].",
+        "answer": "34",
+        "language": "python"
+      },
+      {
+        "question": "Rotate array [1,2,3,4,5,6,7] right by 3 positions. What's at index 0?",
+        "answer": "5",
+        "language": "python"
+      },
+      {
+        "question": "Merge [1,3,5] and [2,4,6]. What's the 4th element? (0-indexed: index 3)",
+        "answer": "4",
+        "language": "python"
+      },
+      {
+        "question": "Best time to buy/sell stock: prices=[7,1,5,3,6,4]. Max profit?",
+        "answer": "5",
+        "language": "python"
+      },
+      {
+        "question": "Find missing number in range 1-5: [1,2,4,5]. Answer?",
+        "answer": "3",
+        "language": "python"
+      }
+    ],
+    "recursion": [
+      {
+        "question": "Factorial of 6?",
+        "answer": "720",
+        "language": "python"
+      },
+      {
+        "question": "Fibonacci sequence: What is fib(7)? (fib(0)=0, fib(1)=1)",
+        "answer": "13",
+        "language": "python"
+      },
+      {
+        "question": "Tower of Hanoi: Minimum moves for 4 disks?",
+        "answer": "15",
+        "language": "python"
+      },
+      {
+        "question": "Calculate power: 2^5 = ?",
+        "answer": "32",
+        "language": "python"
+      },
+      {
+        "question": "Sum of digits: Sum digits of 1234 recursively?",
+        "answer": "10",
+        "language": "python"
+      }
+    ],
+    "sorting": [
+      {
+        "question": "QuickSort average time complexity? (O(n²)/O(n log n)/O(n))",
+        "answer": "O(n log n)",
+        "language": "python"
+      },
+      {
+        "question": "Which sorting is stable? (bubble/quick/heap)",
+        "answer": "bubble",
+        "language": "python"
+      },
+      {
+        "question": "Merge Sort: Space complexity? (O(1)/O(n)/O(log n))",
+        "answer": "O(n)",
+        "language": "python"
+      },
+      {
+        "question": "Best case time complexity of Bubble Sort? (O(n)/O(n²)/O(n log n))",
+        "answer": "O(n)",
+        "language": "python"
+      },
+      {
+        "question": "Selection Sort: How many swaps for already sorted array [1,2,3,4,5]?",
+        "answer": "0",
+        "language": "python"
+      }
+    ],
+    "strings": [
+      {
+        "question": "Reverse string 'hello'. Result?",
+        "answer": "olleh",
+        "language": "python"
+      },
+      {
+        "question": "Check if 'racecar' is palindrome? (yes/no)",
+        "answer": "yes",
+        "language": "python"
+      },
+      {
+        "question": "Anagram: Are 'listen' and 'silent' anagrams? (yes/no)",
+        "answer": "yes",
+        "language": "python"
+      },
+      {
+        "question": "Length of longest substring without repeating chars in 'abcabcbb'?",
+        "answer": "3",
+        "language": "python"
+      }
+    ],
+    "linked_list": [
+      {
+        "question": "Detect cycle: Does linked list 1->2->3->2 have cycle? (yes/no)",
+        "answer": "yes",
+        "language": "python"
+      },
+      {
+        "question": "Middle of linked list [1,2,3,4,5]. Middle element?",
+        "answer": "3",
+        "language": "python"
+      },
+      {
+        "question": "Reverse linked list [1,2,3,4]. New head value?",
+        "answer": "4",
+        "language": "python"
+      },
+      {
+        "question": "Merge two sorted lists [1,3,5] and [2,4,6]. 3rd element?",
+        "answer": "3",
+        "language": "python"
+      }
+    ]
+  },
+  "hard": {
+    "arrays": [
+      {
+        "question": "Trapping Rain Water: [0,1,0,2,1,0,1,3,2,1,2,1]. Total water trapped?",
+        "answer": "6",
+        "language": "python"
+      },
+      {
+        "question": "Longest Consecutive Sequence in [100,4,200,1,3,2]. Length?",
+        "answer": "4",
+        "language": "python"
+      },
+      {
+        "question": "Median of two sorted arrays [1,3] and [2]. Median?",
+        "answer": "2",
+        "language": "python"
+      },
+      {
+        "question": "Sliding Window Maximum: [1,3,-1,-3,5,3,6,7] with k=3. First maximum?",
+        "answer": "3",
+        "language": "python"
+      },
+      {
+        "question": "3Sum: In [-1,0,1,2,-1,-4], how many unique triplets sum to 0?",
+        "answer": "2",
+        "language": "python"
+      }
+    ],
+    "graphs": [
+      {
+        "question": "BFS uses which data structure? (stack/queue/heap)",
+        "answer": "queue",
+        "language": "python"
+      },
+      {
+        "question": "DFS uses which data structure? (stack/queue/heap)",
+        "answer": "stack",
+        "language": "python"
+      },
+      {
+        "question": "Number of Islands: Grid [[1,1,0],[1,0,0],[0,0,1]]. Islands count?",
+        "answer": "2",
+        "language": "python"
+      },
+      {
+        "question": "Dijkstra's algorithm finds? (shortest path/MST/cycle)",
+        "answer": "shortest path",
+        "language": "python"
+      },
+      {
+        "question": "Detect cycle in directed graph using? (DFS/BFS/both)",
+        "answer": "DFS",
+        "language": "python"
+      },
+      {
+        "question": "Topological sort works on? (DAG/cyclic/any graph)",
+        "answer": "DAG",
+        "language": "python"
+      }
+    ],
+    "dynamic_programming": [
+      {
+        "question": "Climbing Stairs: n=5, how many ways to climb? (1 or 2 steps each time)",
+        "answer": "8",
+        "language": "python"
+      },
+      {
+        "question": "Coin Change: coins=[1,2,5], amount=11. Minimum coins?",
+        "answer": "3",
+        "language": "python"
+      },
+      {
+        "question": "LCS: Longest Common Subsequence of 'abcde' and 'ace'. Length?",
+        "answer": "3",
+        "language": "python"
+      },
+      {
+        "question": "Knapsack: weights=[1,2,3], values=[6,10,12], capacity=5. Max value?",
+        "answer": "22",
+        "language": "python"
+      },
+      {
+        "question": "Longest Increasing Subsequence [10,9,2,5,3,7,101,18]. Length?",
+        "answer": "4",
+        "language": "python"
+      }
+    ],
+    "trees": [
+      {
+        "question": "Binary Tree: Max depth of tree with root only?",
+        "answer": "1",
+        "language": "python"
+      },
+      {
+        "question": "BST: Inorder traversal gives? (sorted/random/reverse)",
+        "answer": "sorted",
+        "language": "python"
+      },
+      {
+        "question": "Binary Tree: Preorder of tree [1,null,2,3] (root=1)? (format: 1,2,3)",
+        "answer": "1,2,3",
+        "language": "python"
+      },
+      {
+        "question": "Height of balanced binary tree with 7 nodes minimum?",
+        "answer": "3",
+        "language": "python"
+      },
+      {
+        "question": "Level order traversal uses? (stack/queue/recursion)",
+        "answer": "queue",
+        "language": "python"
+      }
+    ],
+    "backtracking": [
+      {
+        "question": "N-Queens: For n=4, how many solutions exist?",
+        "answer": "2",
+        "language": "python"
+      },
+      {
+        "question": "Permutations: How many permutations of [1,2,3]?",
+        "answer": "6",
+        "language": "python"
+      },
+      {
+        "question": "Sudoku solving uses which technique? (backtracking/greedy/DP)",
+        "answer": "backtracking",
+        "language": "python"
+      },
+      {
+        "question": "Subset Sum: Can [3,34,4,12,5,2] sum to 9? (yes/no)",
+        "answer": "yes",
+        "language": "python"
+      }
+    ],
+    "advanced": [
+      {
+        "question": "LRU Cache: After operations get(1),put(2),put(3),capacity=2. Is 1 in cache? (yes/no)",
+        "answer": "no",
+        "language": "python"
+      },
+      {
+        "question": "Trie: What does Trie store? (strings/numbers/both)",
+        "answer": "strings",
+        "language": "python"
+      },
+      {
+        "question": "Heap: Build max heap from [3,1,4]. Root value?",
+        "answer": "4",
+        "language": "python"
+      },
+      {
+        "question": "Find kth largest element in [3,2,1,5,6,4] where k=2?",
+        "answer": "5",
+        "language": "python"
+      }
+    ]
+  }
+}
