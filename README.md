@@ -66,5 +66,3 @@ Then open the **local URL** displayed in your terminal (e.g., `http://localhost:
 This project demonstrates how **core data structures** can drive real-time gameplay, making DSA learning **fun, competitive, and interactive.**
 
 ---
-
-Would you like me to make it **look more aesthetic** (with emojis, sections, code formatting, badges, etc.) like a professional GitHub README layout (like `README.md` files you see in top repos)?
